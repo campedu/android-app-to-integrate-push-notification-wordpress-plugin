@@ -6,14 +6,14 @@ plugins {
 check.dependsOn 'assembleDebugAndroidTest'
 
 android {
-    compileSdk 33
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.sample.pnfpbandroid"
-        minSdk 21
-        targetSdk 33
-        versionCode 3
-        versionName "1.2"
+        minSdk 24
+        targetSdk 35
+        versionCode 4
+        versionName "1.4"
         multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
